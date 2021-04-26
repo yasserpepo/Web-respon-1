@@ -278,6 +278,13 @@ body {
 }
 .portfolio .portfolio-content .card{
   background-color: white;
+  border-radius:15px;
+  overflow: hidden;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+  transition:0.5s ;
+}
+.portfolio .portfolio-content .card:hover{
+  transform: translateY(-15px);
 }
 .portfolio .portfolio-content .card img{
   max-width: 100%;
